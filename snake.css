@@ -1,0 +1,125 @@
+body{
+    background-color:#f0a3bc;
+}
+.game{
+    border:5px solid #397754;
+    border-radius:15px;
+    
+    width:70vw;
+    height:40vh;
+    margin-top:50px;
+}
+.food{
+    background-color:#3A6B35;
+    height:1vh;
+    width:1vh;
+    border-radius:50%;
+    margin-top:0px;
+    top:35vh;
+    margin-left:0px;
+    left:60vw;
+    float:left;
+    position:relative;
+}
+.snake{
+    height:0px;
+    width:0px;
+    border-left:15px solid transparent;
+    border-right:15px solid transparent;
+    border-bottom:30px solid #3A6B35;
+    transform:rotate(0deg);
+    position:relative;
+    float:left;
+    margin-left:0px;
+    margin-top:0px;
+    top:30vh;
+    left:0vw;
+    transition:top 0s linear,transform 0.5s linear;
+    
+}
+.eyes{
+    background-color:white;
+    height:6px;
+    width:6px;
+    border-radius:3px;
+    top:5px;
+    position:relative;
+    float:center;
+    left:-3px;
+}
+button{    
+    margin:5px;
+    font-size:20px;
+    position:relative;
+    background-color:#3A6B35;
+}
+.upb{
+    margin-top:20px;
+    background-color:#3A6B35;
+}
+.leftb{
+    left:-10px;
+}
+.rightb{
+    left:10px;
+}
+.hide{
+    display:none;
+}
+.scr{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:30px;
+   
+}
+.data{
+    width:25px;
+    padding-left:22px;
+    
+    border-radius:5px;
+}
+.sfl{
+    position:relative;
+    left:-4vw;
+}
+.bun{
+    border-radius:10px;
+}
+.fa{
+    color:#70be51;
+}
+.sb{
+    background-color:#eb6b40;
+    margin-top:25vh;
+    height:100px;
+   position:relative;
+   
+    width:300px;
+    border-radius:10px;
+}
+.tb{
+    position:relative;
+    top:15px;
+}
+.pl{
+    position:relative;
+    top:23px;
+    border-radius:10px;
+    padding:10px;
+    background-color:#397754;
+}
+.foot{
+    position:fixed;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:blue;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    background-color:#CBD185;
+    text-align:center;
+    margin-left:-100px;
+    float:left;
+    margin:auto;
+}
