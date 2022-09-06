@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>snake game</title>
+ <link rel="stylesheet"href="snake.css">
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="snake.js"></script>
+</head>
+<body onload="food();demo();lose();delay();sp()">
+   <center>
+        <div class="sb hide"id="sb">
+  <div class="tb"> You have 
+  <span id="sc"> </span> eggs in
+  <span id="st"> </span> seconds.
+  </div>
+ <input type="button"onclick="location.href='index.html'"value="Play Again"class="pl">
+       </div>
+ <div class="ori"id="ori">
+  <div id="fol"class="hide"></div>   
+  <div id="fot" class="hide" ></div> 
+ <div id="demo1"class="hide"></div>   
+  <div id="demo"class="hide" ></div> 
+  <input type="text"id="spd"class="hide"value="100">
+  <input type="text"class="hide"id="ospd">
+<input type="text"id="foodi"class="hide">
+<input type="text"id="foodw" class="hide">
+<div class="scr">
+<div class="sfl">
+<span>Score &nbsp</span>
+ <input class="data" type="text"id="score"value="0" disabled>
+</div>
+<div class="tfl">
+<span>Time &nbsp</span><input class="data" type="text"id="time"disabled>
+</div></div>  <div id="foodt"class="hide"></div>
+  <div id="foodl"class="hide"></div>
+ <div id="be"class="hide"></div>
+       <div class="game">
+ <div class="snake"id="snake">
+      <div class="eyes"></div>
+         </div>
+   <div class="food"id="food"></div>
+    </div>
+    <div class="button">
+ <button id="up"class="upb bun"onclick="up()"><i class="fa fa-arrow-circle-up"></i>up</button><br>
+  <button id="le"class="leftb bun"onclick="lft()" ><i class="fa fa-arrow-circle-left"></i>left</button>
+   <button class="rightb bun"id="rb"onclick="right()"><i class="fa fa-arrow-circle-right"></i>right</button><br>
+    <button id="do" class="downb bun"onclick="down()"><i class="fa fa-arrow-circle-down"></i>down</button>
+    </div>
+    </div>
+    </center>
+<i class="foot">
+GeeTech inc. @ 2022</i>
+    
+</body>
+</html>
