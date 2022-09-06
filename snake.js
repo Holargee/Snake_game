@@ -17,7 +17,7 @@ document.getElementById("foodi").value=top;
 document.getElementById("foodw").value=left;
 },5000)}
 var s = 0;
-setInterval(sco, 750);
+setInterval(sco, 700);
 function sco(){
 var hei=document.getElementById("foodi").value;
 var wid=document.getElementById("foodw").value;
