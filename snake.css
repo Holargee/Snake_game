@@ -1,3 +1,5 @@
+
+
 body{
     background-color:#f0a3bc;
 }
@@ -15,11 +17,12 @@ body{
     width:1vh;
     border-radius:50%;
     margin-top:0px;
-    top:35vh;
+    top:10vh;
     margin-left:0px;
-    left:60vw;
+    left:50vw;
     float:left;
     position:relative;
+    display:none;
 }
 .snake{
     height:0px;
@@ -32,6 +35,7 @@ body{
     float:left;
     margin-left:0px;
     margin-top:0px;
+    display:none;
     top:30vh;
     left:0vw;
     transition:top 0s linear,transform 0.5s linear;
@@ -51,17 +55,18 @@ button{
     margin:5px;
     font-size:20px;
     position:relative;
-    background-color:#3A6B35;
+    
 }
 .upb{
     margin-top:20px;
-    background-color:#3A6B35;
+    
 }
 .leftb{
     left:-10px;
 }
 .rightb{
     left:10px;
+    background-color:#3A6B35;
 }
 .hide{
     display:none;
@@ -123,3 +128,36 @@ button{
     float:left;
     margin:auto;
 }
+.modal{
+    display:block;
+    position:relative;
+    z-index:1;
+    margin-top:10vh;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    width:200px;
+    padding:10px;
+    float:center;
+    border-radius:10px;
+    top:0px;
+    background-color:rgb(0,0,0);
+    background-color:rgb(0,0,0,0.4);
+    
+}
+.tex{
+    position:relative;
+    font-family:sans-serif;
+    top:10px;
+    
+}
+.modb{
+    background-color:green;
+    position:relative;
+    top:25px;
+    font-size:16px;
+    padding:5px;
+    border-radius:10px;
+}
+
+
