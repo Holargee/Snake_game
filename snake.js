@@ -1,5 +1,11 @@
+function sta(){
+document.getElementById('mod').style.display='none';
+document.getElementById('snake').style.display='block';
+document.getElementById('food').style.display='block';
+}
 var t = 0;
-var timt = setInterval(tim, 1000);
+function tie(){
+var timt = setInterval(tim, 1000);}
 function tim(){
 t = t+1;
 document.getElementById("time").value=t;
@@ -67,7 +73,6 @@ document.getElementById("spd").value=sped;
 ,100)}
     /* to move right */
 function demo(){
-alert("start");
 /*  setInterval(function(){
 var speed = document.getElementById("spd").value;
 document.getElementById("ospd").value=speed;
@@ -213,3 +218,8 @@ var y =document.getElementById("time").value
  clearInterval(timt);
  } 
  }
+
+
+    
+    
+    
