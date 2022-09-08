@@ -8,7 +8,7 @@
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="snake.js"></script>
 </head>
-<body onload="food();demo();lose();delay();sp()">
+<body onload="">
    <center>
         <div class="sb hide"id="sb">
   <div class="tb"> You have 
@@ -17,6 +17,7 @@
   </div>
  <input type="button"onclick="location.href='index.html'"value="Play Again"class="pl">
        </div>
+       
  <div class="ori"id="ori">
   <div id="fol"class="hide"></div>   
   <div id="fot" class="hide" ></div> 
@@ -32,11 +33,19 @@
  <input class="data" type="text"id="score"value="0" disabled>
 </div>
 <div class="tfl">
-<span>Time &nbsp</span><input class="data" type="text"id="time"disabled>
+<span>Time &nbsp</span><input class="data" type="text"id="time"value="0"disabled>
 </div></div>  <div id="foodt"class="hide"></div>
   <div id="foodl"class="hide"></div>
  <div id="be"class="hide"></div>
        <div class="game">
+           <!-- just added -->
+      <center> <div class="modal"id="mod">
+           <div class="modc">
+ <div class="tex">I do hope u enjoy the game.</div>
+            <input type="button"onclick="food();demo();lose();delay();sp();sta();tie()"value="Start"class="modb">  
+           </div>
+       </div></center>
+       <!-- just added -->
  <div class="snake"id="snake">
       <div class="eyes"></div>
          </div>
@@ -55,3 +64,4 @@ GeeTech inc. @ 2022</i>
     
 </body>
 </html>
+
