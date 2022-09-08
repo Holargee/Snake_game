@@ -4,12 +4,19 @@ document.getElementById('snake').style.display='block';
 document.getElementById('food').style.display='block';
 }
 var t = 0;
-function tie(){
-var timt = setInterval(tim, 1000);}
+var timt = setInterval(tim, 1000);
 function tim(){
+var a=document.getElementById("snake").style;
+if(a.display=="block"){
 t = t+1;
 document.getElementById("time").value=t;
-}
+}}
+
+
+
+
+
+
 /* random appearance of food  */
 function food(){
 setInterval(function(){
