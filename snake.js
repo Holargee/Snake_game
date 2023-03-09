@@ -28,7 +28,7 @@ var food = document.getElementById("food").style;
 food.top=top+"vh";food.left=left+"vw";
 document.getElementById("foodi").value=top;
 document.getElementById("foodw").value=left;
-},5000)}
+food.display="block";},5000)}
 var s = 0;
 setInterval(sco, 650);
 function sco(){
@@ -41,7 +41,8 @@ document.getElementById("foodl").innerText="for width = "+ w ;
 
  if((h < 5 && h > -5) && (w > -5 && w < 5))
 {s=s+1;
-document.getElementById("score").value=s};
+document.getElementById("score").value=s;
+document.getElementById("food").style.display="none";};
 }
 
 /* movement of the snake */
